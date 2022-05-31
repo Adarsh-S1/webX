@@ -423,12 +423,6 @@ a img.aligncenter {
     font-size: 20px;
 }
 
-.heading h6 {
-    font-family: BrandName;
-    letter-spacing: 5px;
-    color: #ffffff;
-    font-size: 80px;
-}
 
 .heading h5 {
     font-family: BrandTag;
@@ -437,9 +431,11 @@ a img.aligncenter {
 }
 
 .heading h1 {
+ font-family: BrandName;
+    letter-spacing: 5px;
     color: #ffffff;
-    font-weight: 700;
-    font-size: 62px;
+    font-weight: lighter;
+    font-size: 80px;
 }
 
 .heading p {
