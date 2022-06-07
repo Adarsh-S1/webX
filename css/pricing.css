@@ -1,0 +1,93 @@
+.cardcontainer {
+  cursor: pointer;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+.cardcontainer .cardpricing {
+  background: rgb(230, 247, 255, 0.5);
+  position: relative;
+  min-width: 340px;
+  min-height: 1310px;
+  box-shadow: inset 5px 5px 5px rgb(0, 0, 0, 0.05),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.5), 5px 5px 5px rgb(0, 0, 0, 0.05),
+    -5px -5px 5px rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+   margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+.cardcontainer .cardpricing .boxpricing {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+.cardcontainer .cardpricing:hover .boxpricing {
+  transform: translateY(-50px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  background: rgba(187, 220, 234, 0.9);
+}
+
+.cardcontainer .cardpricing .boxpricing .contentpricing {
+  padding: 5px;
+}
+
+.cardcontainer .cardpricing .boxpricing .contentpricing h2 {
+  right: 30px;
+  font-size: 4em;
+  color: #40c9ff;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.type{
+  font-size: 2.4em;
+  font-weight: 700;
+  color: #777;
+  z-index: 1;
+  transition: 0.5s;
+}
+.cardcontainer .cardpricing .boxpricing .contentpricing p {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: 500;
+  color: #777;
+  z-index: 1;
+  transition: 0.5s;
+}
+.cardcontainer .cardpricing:hover .type {
+  color: #fff;
+}
+.cardcontainer .cardpricing:hover .boxpricing .contentpricing p {
+  color: rgb(104, 104, 104);
+}
+
+.cardcontainer .cardpricing .boxpricing .contentpricing a {
+  padding: 8px 20px;
+  /* background: #03a9f4; */
+  background: #40c9ff;
+  margin-top: 15px;
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.02);
+}
+
+.cardcontainer .cardpricing:hover .boxpricing .contentpricing a {
+  background: #ff9f00;
+}
+.tick {
+  height: 18px;
+  width: auto;
+  margin-left: 10px;
+}
