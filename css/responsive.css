@@ -4,6 +4,7 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {}
 @media (min-width: 768px) and (max-width: 991px) {
+	
 	#mainNav {
 		background-color: #333333;
 	}
@@ -189,5 +190,5 @@
 	.footer-distributed .footer-left{
 		text-align: center;
 	}
-	
+
 }
