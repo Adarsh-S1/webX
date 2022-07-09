@@ -92,22 +92,13 @@
   margin-left: 10px;
 }
 
-.unselectable {
-  margin-bottom: -100px;
-  z-index: -1;
-}
+
 @media (min-width: 768px) and (max-width: 991px) {
-   .unselectable {
-    margin-bottom: -200px;
-  }
+
 }
 @media (max-width: 767px) {
-     .unselectable {
-    margin-bottom: -250px;
-  }
+
 }
 @media only screen and (min-width: 280px) and (max-width: 599px) {
-  .unselectable {
-    margin-bottom: -320px;
-  }
+
 }
