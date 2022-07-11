@@ -2352,7 +2352,7 @@ select.mobile-device {
 }
 
 #contact {
-    background: url(images/1.jpg) no-repeat center center #ffffff;
+    background:#f0efef ;
 }
 
 .contact_form textarea.form-control {
