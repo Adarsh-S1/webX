@@ -4471,7 +4471,7 @@ ul.bottom_menu li {
 @media only screen and (max-width:1130px) {
 
     .mappp {
-        width: 393px;
+     width: auto;
     }
 
 
