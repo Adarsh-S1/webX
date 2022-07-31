@@ -742,6 +742,14 @@ xclip
     transition: all 0.3s ease-in-out 0s;
 }
 
+.services-inner-box h1{
+ font-size: 14px;
+ text-align: justify;
+ color: rgb(84, 83, 83);
+ letter-spacing: 0.5px;
+ word-spacing: 5px;
+}
+
 .ser-icon {
     width: 90px;
     height: 90px;
@@ -797,6 +805,12 @@ xclip
     transition: all 0.3s ease-in-out 0s;
 }
 
+.services-inner-box:hover h1 {
+    
+    z-index: 1;
+    color: #ffffff ;
+    transition: all 0.3s ease-in-out 0s;
+}
 .services-inner-box:hover p {
     color: #ffffff;
 }
