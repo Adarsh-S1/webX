@@ -96,16 +96,7 @@
 
   @media (max-width: 768px) {
   .cardcontainer .cardpricing {
-  background: rgb(230, 247, 255, 0.5);
-  position: relative;
-  min-width: 200px;
-  min-height: 1310px;
-  box-shadow: inset 5px 5px 5px rgb(0, 0, 0, 0.05),
-    inset -5px -5px 5px rgba(255, 255, 255, 0.5), 5px 5px 5px rgb(0, 0, 0, 0.05),
-    -5px -5px 5px rgba(255, 255, 255, 0.5);
-  border-radius: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
+  min-width: 290px;
+
 }
   }
