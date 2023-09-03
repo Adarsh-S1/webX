@@ -4489,6 +4489,12 @@ ul.bottom_menu li {
 
 
 }
+  @media (max-width: 350px) {
+    .mappp {
+     width: 230px;
+    }
+
+}
 
 .heading {
 
