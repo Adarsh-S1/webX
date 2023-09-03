@@ -96,7 +96,10 @@
 
   @media (max-width: 768px) {
   .cardcontainer .cardpricing {
+  background: rgb(230, 247, 255, 0.5);
+  position: relative;
   min-width: 290px;
-
+  min-height: 1500px;
+  margin-bottom: 50px;
 }
   }
